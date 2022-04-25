@@ -1,0 +1,110 @@
+
+.btn2{
+    background-color:rgb(0, 255, 229);
+    color:white;
+    border-radius: 15px;
+    
+
+}
+.btn1{
+    background-color:rgb(0, 255, 229);
+    color:white;
+    border-radius: 5px; 
+    padding-bottom: 5px;
+}
+.image{
+    height:350px;
+    width: 500px;
+    border-radius: 5px;
+}
+.purple{
+    background-color: rgb(46, 3, 55);
+    height:80px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-control{
+    width: 89%;
+}
+
+.main{
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    padding-bottom: 50px;
+    position: relative;
+}
+.card2{
+    margin-top: 20px;
+}
+.card3{
+    margin-top: 50px;
+}
+.footer{
+    background-color: black;
+    padding-top: 30px;
+    color: white;
+}
+.bfooter{
+    text-align: center;
+    background-color: rgb(46, 3, 55);
+    color:white;
+    padding: 20px;
+}
+
+.f{
+    background-color: rgb(46, 3, 55);
+    color:rgb(0, 255, 229);
+    border-radius: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: 230px;
+}
+.card{
+    position: relative;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 800px) {
+    .f{
+        background-color: rgb(46, 3, 55);
+        color:rgb(0, 255, 229);
+        border-radius: 100%;
+        padding: 20px;
+        position: absolute;
+        bottom: 180px;
+    }
+    .card{
+        position: relative;
+        margin-top: 50px;
+    }
+    .form-control{
+        width: 89%;
+    }
+    .btn1{
+        width:30%;
+        margin-left:2px;
+    }
+  }
+  /* @media screen and (max-width: 1024px) {
+    .f{
+        background-color: rgb(46, 3, 55);
+        color:rgb(0, 255, 229);
+        border-radius: 100%;
+        padding: 20px;
+        position: absolute;
+        bottom: 350px;
+    }
+    .card{
+        position: relative;
+        margin-top: 50px;
+    }
+    .form-control{
+        width: 70%;
+    }
+    .btn1{
+        width:30%;
+        margin-left:2px;
+    }
+  } */
